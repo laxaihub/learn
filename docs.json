@@ -1,0 +1,49 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "LaxAIHub",
+  "description": "Guides for learning AI and building the projects on LaxAIHub.",
+  "colors": {
+    "primary": "#4F46E5",
+    "light": "#6366F1",
+    "dark": "#4338CA"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Start here",
+        "pages": ["index"]
+      },
+      {
+        "group": "Projects",
+        "pages": ["projects/digital-twin"]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "LaxAIHub",
+        "href": "https://www.laxaihub.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Portfolio",
+      "href": "https://www.laxaihub.com/portfolio"
+    }
+  },
+  "redirects": [
+    {
+      "source": "/index-mdx",
+      "destination": "/"
+    },
+    {
+      "source": "/index-mdx.md",
+      "destination": "/"
+    }
+  ],
+  "seo": {
+    "indexing": "navigable"
+  }
+}
