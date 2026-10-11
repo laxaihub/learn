@@ -1,0 +1,146 @@
+[
+  {
+    "slug": "what-is-ai",
+    "title": "What is AI?",
+    "category": "AI Foundations",
+    "path": "ai-foundations/what-is-ai",
+    "url": "https://learn.laxaihub.com/ai-foundations/what-is-ai",
+    "source": "/workspace/scratch/e01e93421ba7/what-is-ai"
+  },
+  {
+    "slug": "how-does-ai-learn",
+    "title": "How Does AI Learn?",
+    "category": "AI Foundations",
+    "path": "ai-foundations/how-does-ai-learn",
+    "url": "https://learn.laxaihub.com/ai-foundations/how-does-ai-learn",
+    "source": "/workspace/scratch/e01e93421ba7/laxaihub-ai-basics-articles/how-does-ai-learn"
+  },
+  {
+    "slug": "how-to-use-ai-safely",
+    "title": "How to Use AI Safely",
+    "category": "AI Foundations",
+    "path": "ai-foundations/how-to-use-ai-safely",
+    "url": "https://learn.laxaihub.com/ai-foundations/how-to-use-ai-safely",
+    "source": "/workspace/scratch/e01e93421ba7/laxaihub-ai-basics-articles/how-to-use-ai-safely"
+  },
+  {
+    "slug": "what-is-generative-ai",
+    "title": "What Is Generative AI?",
+    "category": "AI Foundations",
+    "path": "ai-foundations/what-is-generative-ai",
+    "url": "https://learn.laxaihub.com/ai-foundations/what-is-generative-ai",
+    "source": "/workspace/scratch/e01e93421ba7/laxaihub-ai-basics-articles/what-is-generative-ai"
+  },
+  {
+    "slug": "what-is-iam",
+    "title": "What Is IAM?",
+    "category": "Identity & Access",
+    "path": "identity-access/what-is-iam",
+    "url": "https://learn.laxaihub.com/identity-access/what-is-iam",
+    "source": "/workspace/scratch/e01e93421ba7/laxaihub-access-security/what-is-iam"
+  },
+  {
+    "slug": "what-is-pam",
+    "title": "What Is PAM?",
+    "category": "Identity & Access",
+    "path": "identity-access/what-is-pam",
+    "url": "https://learn.laxaihub.com/identity-access/what-is-pam",
+    "source": "/workspace/scratch/e01e93421ba7/laxaihub-access-security/what-is-pam"
+  },
+  {
+    "slug": "what-is-zero-trust",
+    "title": "What Is Zero Trust?",
+    "category": "Security Architecture",
+    "path": "security-architecture/what-is-zero-trust",
+    "url": "https://learn.laxaihub.com/security-architecture/what-is-zero-trust",
+    "source": "/workspace/scratch/e01e93421ba7/laxaihub-access-security/what-is-zero-trust"
+  },
+  {
+    "slug": "ai-for-iam",
+    "title": "How Can AI Help IAM?",
+    "category": "Identity & Access",
+    "path": "identity-access/ai-for-iam",
+    "url": "https://learn.laxaihub.com/identity-access/ai-for-iam",
+    "source": "/workspace/scratch/e01e93421ba7/laxaihub-security-collection-02/ai-for-iam"
+  },
+  {
+    "slug": "iam-best-practices",
+    "title": "IAM Best Practices",
+    "category": "Identity & Access",
+    "path": "identity-access/iam-best-practices",
+    "url": "https://learn.laxaihub.com/identity-access/iam-best-practices",
+    "source": "/workspace/scratch/e01e93421ba7/laxaihub-security-collection-02/iam-best-practices"
+  },
+  {
+    "slug": "security-by-design",
+    "title": "What Is Security by Design?",
+    "category": "Security Architecture",
+    "path": "security-architecture/security-by-design",
+    "url": "https://learn.laxaihub.com/security-architecture/security-by-design",
+    "source": "/workspace/scratch/e01e93421ba7/laxaihub-security-collection-02/security-by-design"
+  },
+  {
+    "slug": "what-is-ai-governance",
+    "title": "What Is AI Governance?",
+    "category": "AI Governance",
+    "path": "ai-governance/what-is-ai-governance",
+    "url": "https://learn.laxaihub.com/ai-governance/what-is-ai-governance",
+    "source": "/workspace/scratch/e01e93421ba7/laxaihub-security-collection-02/what-is-ai-governance"
+  },
+  {
+    "slug": "what-is-ai-security",
+    "title": "What Is AI Security?",
+    "category": "AI Security",
+    "path": "ai-security/what-is-ai-security",
+    "url": "https://learn.laxaihub.com/ai-security/what-is-ai-security",
+    "source": "/workspace/scratch/e01e93421ba7/laxaihub-security-collection-02/what-is-ai-security"
+  },
+  {
+    "slug": "what-is-ciam",
+    "title": "What Is CIAM?",
+    "category": "Identity & Access",
+    "path": "identity-access/what-is-ciam",
+    "url": "https://learn.laxaihub.com/identity-access/what-is-ciam",
+    "source": "/workspace/scratch/e01e93421ba7/laxaihub-security-collection-02/what-is-ciam"
+  },
+  {
+    "slug": "what-is-iag",
+    "title": "What Is IAG?",
+    "category": "Identity & Access",
+    "path": "identity-access/what-is-iag",
+    "url": "https://learn.laxaihub.com/identity-access/what-is-iag",
+    "source": "/workspace/scratch/e01e93421ba7/laxaihub-security-collection-02/what-is-iag"
+  },
+  {
+    "slug": "what-is-microsoft-entra-id",
+    "title": "What Is Microsoft Entra ID?",
+    "category": "Identity & Access",
+    "path": "identity-access/what-is-microsoft-entra-id",
+    "url": "https://learn.laxaihub.com/identity-access/what-is-microsoft-entra-id",
+    "source": "/workspace/scratch/e01e93421ba7/laxaihub-security-collection-02/what-is-microsoft-entra-id"
+  },
+  {
+    "slug": "everyday-human-performance",
+    "title": "Everyday Human Performance",
+    "category": "Human Performance",
+    "path": "human-performance/everyday-human-performance",
+    "url": "https://learn.laxaihub.com/human-performance/everyday-human-performance",
+    "source": "/workspace/scratch/e01e93421ba7/laxaihub-movement-wellbeing/everyday-human-performance"
+  },
+  {
+    "slug": "getting-started-with-running",
+    "title": "Getting Started with Running",
+    "category": "Human Performance",
+    "path": "human-performance/getting-started-with-running",
+    "url": "https://learn.laxaihub.com/human-performance/getting-started-with-running",
+    "source": "/workspace/scratch/e01e93421ba7/laxaihub-movement-wellbeing/getting-started-with-running"
+  },
+  {
+    "slug": "simple-strength-workout",
+    "title": "A Simple Strength Workout",
+    "category": "Human Performance",
+    "path": "human-performance/simple-strength-workout",
+    "url": "https://learn.laxaihub.com/human-performance/simple-strength-workout",
+    "source": "/workspace/scratch/e01e93421ba7/laxaihub-movement-wellbeing/simple-strength-workout"
+  }
+]

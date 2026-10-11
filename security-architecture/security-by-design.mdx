@@ -1,0 +1,53 @@
+---
+title: "What Is Security by Design?"
+description: "Build protection into the plan from the beginning."
+---
+
+*Security Architecture · Published October 11, 2026*
+
+Imagine building a house. You plan the locks, safe wiring, and fire exits before people move in.
+
+**Security by design** takes a similar approach to software: consider security while planning, building, testing, and maintaining it.
+
+## Start with useful questions
+What information needs protecting? Who should have access? What could go wrong if a feature is misused?
+
+These questions help teams choose safeguards early. Examples include permission checks, protected secrets, limited data collection, and ways to detect and investigate problems.
+
+## What is secure by default?
+It means useful protections start enabled. People should not have to discover and switch on basic safeguards themselves.
+
+For a possible LaxAIHub course platform, a secure design would check lesson permissions on the server, keep API keys out of browser code, and test that one learner cannot open another learner’s private records.
+
+Security also needs maintenance: fix vulnerabilities, review dependencies, and learn from incidents. Building carefully reduces risk; it does not make software impossible to attack.
+
+## Try it on paper
+Design a pretend homework app. Name its private data, who may see it, two misuse cases, and one protection for each.
+
+**Remember: Plan protection early and maintain it throughout the product’s life.**
+
+## Visual guide
+
+![ Identify data and risks; Who could access the records?; Build and test safeguards; Enforce permissions on the server; Checks pass: release carefully; Monitor and keep fixing issues; Checks fail: correct the design; Retest before exposing the feature; Illustrative policy example; real systems use their configured rules.](/images/articles/security-by-design/access-example.svg)
+
+## Mind map
+
+![ Understand risks; What could go wrong?; Limit access; Least privilege; Protect data; Collect and retain less; Safer defaults; Protection starts enabled; Test and maintain; Fix and learn over time; Secure design](/images/articles/security-by-design/mind-map.svg)
+
+## Sources
+
+- [content.govdelivery.com](https://content.govdelivery.com/accounts/USDHSCISA/bulletins/354a744)
+- [www.cisa.gov](https://www.cisa.gov/news-events/alerts/2025/01/17/cisa-and-fbi-release-updated-guidance-product-security-bad-practices)
+
+<Accordion title="Video outline and lab notes">
+
+## 60–90 second video
+Compare planning house safety with planning app safety. Show a server permission check, a protected secret, and a test before release.
+Suggested pacing: 10 seconds for the everyday analogy, 25 seconds for the concept, 25 seconds for the access example, and 10 seconds for the takeaway.
+Use large captions and slow speech. Explain acronyms before using them. Keep analogy scenes separate from computer-system scenes.
+
+## Paper lab
+Create a small threat table for a fictional homework app: asset, possible misuse, protection, and test. Include unauthorized access and exposed secrets.
+Record the request, relevant evidence, decision, and reason. No accounts, configuration changes, or paid software are needed.
+
+</Accordion>

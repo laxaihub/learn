@@ -1,0 +1,52 @@
+---
+title: "What Is CIAM?"
+description: "Help customers sign in safely and simply."
+---
+
+*Identity & Access · Published October 11, 2026*
+
+Imagine joining an online learning site. You create an account, sign in, and open your lessons. If you forget how to sign in, you need a safe way back.
+
+**CIAM means Customer Identity and Access Management.** It focuses on identity experiences for customers using websites and apps, including registration, sign-in, and account recovery.
+
+## Why does it matter?
+Customer sign-in should be understandable and accessible. It also needs protection against account takeover. Collect only the information needed, and explain how it will be used.
+
+## Signing in is only part of the story
+A customer account proves an identity; it does not automatically prove that a person bought every course.
+
+In a possible LaxAIHub design, CIAM handles learner sign-in. The application separately checks course enrollment before delivering paid lessons. Hiding a button alone would not enforce that rule; the server must check permission.
+
+## Where does Microsoft fit?
+Microsoft Entra External ID offers customer identity capabilities. A customer sign-in experience and staff administration need different permissions and policies.
+
+## Try it on paper
+Sketch four screens: create account, sign in, recover access, and open a course. Where should identity checks happen? Where should course permission be checked?
+
+**Remember: A smooth sign-in and careful access checks work together.**
+
+## Visual guide
+
+![ Customer signs in; CIAM verifies the identity; App checks enrollment; Server checks course permission; Enrolled: deliver the lessons; Allow only purchased access; Not enrolled: do not deliver; Offer the permitted next step; Illustrative policy example; real systems use their configured rules.](/images/articles/what-is-ciam/access-example.svg)
+
+## Mind map
+
+![ Registration; Create a customer account; Sign-in; Verify the customer; Recovery; Regain access safely; Privacy; Collect only what is needed; App permissions; Check access separately; CIAM](/images/articles/what-is-ciam/mind-map.svg)
+
+## Sources
+
+- [learn.microsoft.com](https://learn.microsoft.com/en-us/entra/external-id/customers/concept-planning-your-solution)
+- [www.microsoft.com](https://www.microsoft.com/en-us/security/business/security-101/what-is-identity-access-management-iam)
+
+<Accordion title="Video outline and lab notes">
+
+## 60–90 second video
+Show a learner registering, signing in, and requesting a lesson. Separate identity verification from the enrollment check.
+Suggested pacing: 10 seconds for the everyday analogy, 25 seconds for the concept, 25 seconds for the access example, and 10 seconds for the takeaway.
+Use large captions and slow speech. Explain acronyms before using them. Keep analogy scenes separate from computer-system scenes.
+
+## Paper lab
+Draw the customer journey and mark identity checks and authorization checks separately. Use fictional accounts and enrollments; no real customer data.
+Record the request, relevant evidence, decision, and reason. No accounts, configuration changes, or paid software are needed.
+
+</Accordion>

@@ -1,0 +1,54 @@
+---
+title: "IAM Best Practices"
+description: "Small access habits that reduce avoidable risk."
+---
+
+*Identity & Access · Published October 11, 2026*
+
+Imagine a club where everyone shares one key and nobody knows who still has it. Digital access becomes hard to manage in much the same way.
+
+Good IAM makes access clearer, more limited, and easier to review.
+
+## Six practices to remember
+- **Use individual accounts.** Shared accounts make responsibility harder to trace.
+- **Strengthen sign-in.** Use multifactor authentication and prefer phishing-resistant methods, such as supported security keys or passkeys.
+- **Limit permissions.** Give people and applications only the access their tasks need.
+- **Update access promptly.** Review permissions after role changes and remove access when it is no longer needed.
+- **Protect administrator roles.** Separate routine work from privileged tasks and use temporary elevation where appropriate.
+- **Review logs and plan recovery.** Know how to investigate suspicious activity and restore legitimate access safely.
+
+MFA methods provide different levels of protection. Extra sign-in checks do not replace permission checks.
+
+## A LaxAIHub example
+In a possible design, contributors edit permitted content, learners access their enrolled courses, and powerful administrator actions receive extra controls.
+
+## Try it on paper
+Audit a fictional club: find a shared account, an old member with access, and an editor with unnecessary administrator rights. Suggest a fix for each.
+
+**Remember: Strong sign-in, limited permissions, and regular review work together.**
+
+## Visual guide
+
+![ Check the account owner; Does the person still need access?; Review permissions and activity; Look for stale or excessive access; Still needed: keep minimum access; Set the next review date; No longer needed: remove access; Record the change safely; Illustrative policy example; real systems use their configured rules.](/images/articles/iam-best-practices/access-example.svg)
+
+## Mind map
+
+![ Strong sign-in; Prefer phishing-resistant MFA; Least privilege; Only needed permissions; Account lifecycle; Update and remove access; Privileged access; Limit powerful roles; Logs and recovery; Review and prepare; Better IAM](/images/articles/iam-best-practices/mind-map.svg)
+
+## Sources
+
+- [www.cisa.gov](https://www.cisa.gov/sites/default/files/2023-12/ESF%20IDENTITY%20AND%20ACCESS%20MANAGEMENT%20RECOMMENDED%20BEST%20PRACTICES%20FOR%20ADMINISTRATORS%20PP-23-0248_508C.pdf)
+- [www.cisa.gov](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business/require-multifactor-authentication)
+
+<Accordion title="Video outline and lab notes">
+
+## 60–90 second video
+Show six access habits with short labels. Focus on individual accounts, stronger sign-in, permission limits, removing old access, protected admin roles, and review.
+Suggested pacing: 10 seconds for the everyday analogy, 25 seconds for the concept, 25 seconds for the access example, and 10 seconds for the takeaway.
+Use large captions and slow speech. Explain acronyms before using them. Keep analogy scenes separate from computer-system scenes.
+
+## Paper lab
+Create five fictional accounts with owner, role, last review, and permissions. Identify shared, stale, and overprivileged access. Propose changes without touching a live system.
+Record the request, relevant evidence, decision, and reason. No accounts, configuration changes, or paid software are needed.
+
+</Accordion>

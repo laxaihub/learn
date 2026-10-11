@@ -2,7 +2,7 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "LaxAIHub",
-  "description": "Guides for learning AI and building the projects on LaxAIHub.",
+  "description": "Simple guides to AI, identity, security, cloud technology, and human performance.",
   "colors": {
     "primary": "#4F46E5",
     "light": "#6366F1",
@@ -12,11 +12,63 @@
     "groups": [
       {
         "group": "Start here",
-        "pages": ["index"]
+        "pages": [
+          "index"
+        ]
       },
       {
         "group": "Projects",
-        "pages": ["projects/digital-twin"]
+        "pages": [
+          "projects/digital-twin"
+        ]
+      },
+      {
+        "group": "AI Foundations",
+        "pages": [
+          "ai-foundations/what-is-ai",
+          "ai-foundations/how-does-ai-learn",
+          "ai-foundations/how-to-use-ai-safely",
+          "ai-foundations/what-is-generative-ai"
+        ]
+      },
+      {
+        "group": "Identity & Access",
+        "pages": [
+          "identity-access/what-is-iam",
+          "identity-access/what-is-pam",
+          "identity-access/ai-for-iam",
+          "identity-access/iam-best-practices",
+          "identity-access/what-is-ciam",
+          "identity-access/what-is-iag",
+          "identity-access/what-is-microsoft-entra-id"
+        ]
+      },
+      {
+        "group": "Security Architecture",
+        "pages": [
+          "security-architecture/what-is-zero-trust",
+          "security-architecture/security-by-design"
+        ]
+      },
+      {
+        "group": "AI Governance",
+        "pages": [
+          "ai-governance/what-is-ai-governance"
+        ]
+      },
+      {
+        "group": "AI Security",
+        "pages": [
+          "ai-security/what-is-ai-security"
+        ]
+      },
+      {
+        "group": "Human Performance",
+        "pages": [
+          "human-performance/everyday-human-performance",
+          "human-performance/getting-started-with-running",
+          "human-performance/simple-strength-workout"
+        ]
       }
     ]
   },

@@ -1,0 +1,56 @@
+---
+title: "What Is PAM?"
+description: "Extra care for powerful access."
+---
+
+*Identity & Access · Published October 11, 2026*
+
+Imagine a caretaker with a school’s master key. It opens many doors, so losing it could cause much more trouble than losing a classroom key.
+
+In a computer system, powerful permissions can let someone change settings, delete data, or create accounts.
+
+**PAM means Privileged Access Management.** It protects and controls this powerful access. PAM is a specialized part of IAM.
+
+## What does PAM help with?
+- Give only the permissions needed for a task.
+- Require stronger identity checks, such as multifactor authentication: more than one kind of identity evidence.
+- Where appropriate, require approval and make elevated access temporary.
+- Protect powerful account credentials and record activity for review.
+
+These controls help reduce risk; they do not guarantee that nothing will go wrong.
+
+## A simple example
+An authorized administrator needs to change one server setting. Under an example policy, they request the required role, complete extra checks, receive approval, and activate it for 30 minutes. The elevated permission then expires, and the activity is available for review.
+
+The 30-minute limit is just an example. Organizations choose policies for their own needs.
+
+## Try it on paper
+Your club needs someone to update its website. Should they get one editing permission for an hour, or unlimited administrator access forever? Explain why.
+
+**Remember: Powerful access deserves stronger protection and a clear purpose.**
+
+## Visual guide
+
+![ Request a task role; Explain the authorized change; Extra checks and approval; Example policy: 30 minutes; Approved: activate the role; Log activity; expire after the limit; Rejected: no elevation; Keep ordinary permissions; Illustrative policy example; real systems use their configured rules.](/images/articles/what-is-pam/access-example.svg)
+
+## Mind map
+
+![ Powerful access; High-impact permissions; Least privilege; Only the needed task; Temporary access; Only when needed; Credential protection; Safeguard powerful secrets; Audit and review; Record and check activity; PAM](/images/articles/what-is-pam/mind-map.svg)
+
+## Sources
+
+- [www.microsoft.com](https://www.microsoft.com/en-us/security/business/security-101/what-is-privileged-access-management-pam)
+- [learn.microsoft.com](https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure)
+
+<Accordion title="Video outline and lab notes">
+
+## 60–90 second video
+Show an ordinary key and a master key. Illustrate a permission request, approval, a timer, and an activity record. Explain that 30 minutes is an example policy.
+Suggested pacing: 10 seconds for the everyday analogy, 25 seconds for the concept, 25 seconds for the access example, and 10 seconds for the takeaway.
+Use large captions and slow speech. Explain acronyms before using them. Keep analogy scenes separate from computer-system scenes.
+
+## Paper lab
+Write an example club policy with a task, required permission, approver, time limit, and review record. Compare temporary editing access with permanent administrator access. Use fictional accounts only.
+Record the request, relevant evidence, decision, and reason. No accounts, configuration changes, or paid software are needed.
+
+</Accordion>

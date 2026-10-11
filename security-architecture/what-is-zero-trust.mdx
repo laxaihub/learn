@@ -1,0 +1,55 @@
+---
+title: "What Is Zero Trust?"
+description: "Check access using evidence, not location alone."
+---
+
+*Security Architecture · Published October 11, 2026*
+
+Imagine entering a school. Being inside the building does not automatically give you permission to open every room.
+
+**Zero Trust is a security approach that avoids automatically trusting access just because someone is inside a network or using a company-owned device.**
+
+Instead, systems use identity, permissions, device condition, and other relevant signals to decide whether to allow access.
+
+## Three useful principles
+- **Verify explicitly:** use evidence to make the access decision.
+- **Use least privilege:** allow only the access needed.
+- **Assume breach:** plan for an account or device to be compromised and limit the possible damage.
+
+## A simple example
+An employee signs in to open a work file. A policy checks the employee’s identity, permission to read the file, and relevant device or risk signals.
+
+The result might be access, an additional verification step, or a denial. Being on the office Wi-Fi is not enough by itself.
+
+Systems can reassess access as conditions change. This does not mean a person must type a password for every click.
+
+## Try it on paper
+Compare two requests for the same private file: an authorized employee using an approved device, and someone using a stolen account on an unknown device. What evidence would help you decide?
+
+**Remember: Zero Trust is an approach supported by many controls, rather than a single product.**
+
+## Visual guide
+
+![ Request a file; Identity, device, and context; Evaluate the policy; Permission and risk signals; Requirements met: allow; Limited access; reassess risk; More checks or denial; Office Wi-Fi alone is insufficient; Illustrative policy example; real systems use their configured rules.](/images/articles/what-is-zero-trust/access-example.svg)
+
+## Mind map
+
+![ Identity; Who or what is asking?; Device and context; Is the situation acceptable?; Least privilege; Limit the access; Limit damage; Contain possible compromise; Monitor and reassess; Respond when risk changes; Zero Trust](/images/articles/what-is-zero-trust/mind-map.svg)
+
+## Sources
+
+- [csrc.nist.gov](https://csrc.nist.gov/pubs/sp/800/207/final)
+- [www.microsoft.com](https://www.microsoft.com/en-us/security/business/zero-trust)
+
+<Accordion title="Video outline and lab notes">
+
+## 60–90 second video
+Start with school doors inside a building. Show identity, permission, and device evidence going into a decision. End with allow, extra checks, or deny. Explain that location alone does not establish trust.
+Suggested pacing: 10 seconds for the everyday analogy, 25 seconds for the concept, 25 seconds for the access example, and 10 seconds for the takeaway.
+Use large captions and slow speech. Explain acronyms before using them. Keep analogy scenes separate from computer-system scenes.
+
+## Paper lab
+Use fictional identity, permission, and device cards. Make a simple rule: a known authorized learner with an acceptable device can read their course; missing evidence needs more checks; no course permission means deny. Change one signal and explain the new decision. This illustrates policy decisions, not a complete Zero Trust architecture.
+Record the request, relevant evidence, decision, and reason. No accounts, configuration changes, or paid software are needed.
+
+</Accordion>

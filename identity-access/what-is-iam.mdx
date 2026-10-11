@@ -1,0 +1,55 @@
+---
+title: "What Is IAM?"
+description: "The right access for the right person or system."
+---
+
+*Identity & Access · Published October 11, 2026*
+
+Imagine a school with a library, classrooms, and a staff room. A student can borrow books, but that does not mean they can open the staff room.
+
+**IAM means Identity and Access Management.** It manages digital identities and what they are allowed to access. Identities can belong to people, apps, or other systems.
+
+## Two questions to remember
+**Authentication:** Have you proved the identity you claim? Think of showing a school ID.
+
+**Authorization:** What are you allowed to do? Think of checking which rooms your pass can open.
+
+Signing in successfully does not give you permission to do everything.
+
+## A LaxAIHub example
+In a possible LaxAIHub design, a learner can open an enrolled course. A contributor can edit permitted articles. An administrator can manage selected site settings. Each role gets only the access it needs.
+
+That idea is called **least privilege**: give enough access for the task, without unnecessary permissions.
+
+## Access should change with the job
+When someone joins, changes roles, or leaves, their access needs updating. Old permissions should not stay forever.
+
+## Try it on paper
+Draw three rooms: library, classroom, and staff room. Give a student, teacher, and librarian the permissions they need. Explain your choices.
+
+**Remember: Proving who you are and checking what you may do are different steps.**
+
+## Visual guide
+
+![ Sign in; Prove the learner identity; Permission check; Is this course assigned?; Yes: open the course; Only permitted course actions; No: deny access; Signing in alone is not enough; Illustrative policy example; real systems use their configured rules.](/images/articles/what-is-iam/access-example.svg)
+
+## Mind map
+
+![ Identity; Who or what is asking?; Authentication; Prove the identity; Authorization; Check the permissions; Account lifecycle; Join, change, leave; Access review; Still needed?; IAM](/images/articles/what-is-iam/mind-map.svg)
+
+## Sources
+
+- [www.microsoft.com](https://www.microsoft.com/en-us/security/business/security-101/what-is-identity-access-management-iam)
+
+<Accordion title="Video outline and lab notes">
+
+## 60–90 second video
+Show three school rooms and three passes. Separate “show your ID” from “check the room permission.” Finish with a fictional LaxAIHub learner, contributor, and administrator.
+Suggested pacing: 10 seconds for the everyday analogy, 25 seconds for the concept, 25 seconds for the access example, and 10 seconds for the takeaway.
+Use large captions and slow speech. Explain acronyms before using them. Keep analogy scenes separate from computer-system scenes.
+
+## Paper lab
+Create a paper permission table for Learner, Contributor, and Administrator. Add “read a course,” “edit an article,” and “manage site settings.” Then change someone’s role and remove the permissions they no longer need.
+Record the request, relevant evidence, decision, and reason. No accounts, configuration changes, or paid software are needed.
+
+</Accordion>

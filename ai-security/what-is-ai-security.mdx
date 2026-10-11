@@ -1,0 +1,51 @@
+---
+title: "What Is AI Security?"
+description: "Protect AI systems, their data, and their actions."
+---
+
+*AI Security · Published October 11, 2026*
+
+Imagine a helpful assistant reading a pile of notes. One note contains instructions that try to make it abandon its task.
+
+**AI security** protects AI systems and the applications around them against misuse, unauthorized access, and harmful actions.
+
+## What is prompt injection?
+It is an attempt to make an AI behave in unintended ways through instructions in a request or material it reads. That material might be a document or webpage.
+
+## Why do permissions matter?
+An AI that can only draft text has different risks from one that can send messages, change accounts, or delete files.
+
+Limit the data and tools an AI can access. Use application-level permission checks, validate outputs before passing them to other systems, and require approval for sensitive actions. Keep secrets out of prompts.
+
+A sentence telling an AI to “never reveal private data” is not enough to enforce access security. Controls outside the model must protect that data.
+
+## Try it on paper
+Design a fictional study assistant. Should it read public lessons, private payment records, or all learner messages? Give it only what its task requires.
+
+**Remember: Helpful AI still needs boundaries, testing, and monitoring.**
+
+## Visual guide
+
+![ Read permitted material; Treat outside content as untrusted; Validate a proposed action; Enforce permissions outside the AI; Permitted: proceed with controls; Review outputs and log activity; Unauthorized: block the action; Do not expand access on AI request; Illustrative policy example; real systems use their configured rules.](/images/articles/what-is-ai-security/access-example.svg)
+
+## Mind map
+
+![ Private data; Control what is accessible; Untrusted content; Watch for misleading instructions; Tool permissions; Limit possible actions; Output checks; Validate before using results; Monitoring; Detect and respond to misuse; AI security](/images/articles/what-is-ai-security/mind-map.svg)
+
+## Sources
+
+- [github.com](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/blob/main/2_0_vulns/LLM01_PromptInjection.md)
+- [github.com](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/blob/main/2_0_vulns/LLM07_SystemPromptLeakage.md)
+
+<Accordion title="Video outline and lab notes">
+
+## 60–90 second video
+Show a study assistant encountering an untrusted note. Illustrate limited tools, an application permission check, and human approval for sensitive actions.
+Suggested pacing: 10 seconds for the everyday analogy, 25 seconds for the concept, 25 seconds for the access example, and 10 seconds for the takeaway.
+Use large captions and slow speech. Explain acronyms before using them. Keep analogy scenes separate from computer-system scenes.
+
+## Paper lab
+Draw a fictional assistant with a public lesson library and three possible tools. Mark which data and actions are allowed. Add a human approval boundary for sensitive actions. This is a design exercise, not an exploit test.
+Record the request, relevant evidence, decision, and reason. No accounts, configuration changes, or paid software are needed.
+
+</Accordion>

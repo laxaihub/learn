@@ -1,0 +1,54 @@
+---
+title: "What Is Microsoft Entra ID?"
+description: "Microsoft’s cloud service for identity and access."
+---
+
+*Identity & Access · Published October 11, 2026*
+
+Imagine an organization with email, learning tools, and other apps. It needs a way to manage identities and control sign-in across them.
+
+**Microsoft Entra ID** is Microsoft’s cloud-based identity and access management service. Its previous name was **Azure Active Directory**, or Azure AD.
+
+It is one product in the wider Microsoft Entra family. Windows Server Active Directory is a separate technology; it was not renamed to Entra ID.
+
+## What can it help with?
+It manages users, groups, and application identities. It supports authentication and single sign-on: signing in once to access integrated applications, subject to their policies.
+
+Capabilities such as Conditional Access, identity protection, and privileged identity management can add controls depending on the product, configuration, and license.
+
+**A tenant** is an organization’s instance of the service, with its directory and settings.
+
+## A LaxAIHub example
+A possible design could use Entra ID for staff sign-in and evaluate Entra External ID for customer identities. The website would still enforce its own course and content permissions.
+
+## Try it on paper
+Draw an organization’s users, groups, and three apps. Mark who needs each app. Separate customer sign-in from staff administration.
+
+**Remember: Entra ID helps manage identity; each application still needs correct access controls.**
+
+## Visual guide
+
+![ Authenticate with Entra ID; Apply configured sign-in policies; App validates and checks access; Enforce the app permissions; Permitted: allow the task; Grant only the required access; Not permitted: deny the task; A valid sign-in is not enough; Illustrative policy example; real systems use their configured rules.](/images/articles/what-is-microsoft-entra-id/access-example.svg)
+
+## Mind map
+
+![ Directory; Users, groups, and apps; Sign-in; Authentication and SSO; Access policies; Apply configured rules; App integration; Connect supported applications; Identity protection; Related risk controls; Entra ID](/images/articles/what-is-microsoft-entra-id/mind-map.svg)
+
+## Sources
+
+- [learn.microsoft.com](https://learn.microsoft.com/azure/active-directory/fundamentals/whatis)
+- [learn.microsoft.com](https://learn.microsoft.com/en-us/entra/fundamentals/new-name)
+- [learn.microsoft.com](https://learn.microsoft.com/en-us/entra/architecture/secure-fundamentals)
+
+<Accordion title="Video outline and lab notes">
+
+## 60–90 second video
+Show a directory linking staff identities to integrated apps. Explain Azure AD’s new name, SSO, tenant, and the application’s separate permission check.
+Suggested pacing: 10 seconds for the everyday analogy, 25 seconds for the concept, 25 seconds for the access example, and 10 seconds for the takeaway.
+Use large captions and slow speech. Explain acronyms before using them. Keep analogy scenes separate from computer-system scenes.
+
+## Paper lab
+Sketch a fictional tenant with users, groups, applications, and role permissions. Label customer and staff scenarios separately. No subscription or live configuration is required.
+Record the request, relevant evidence, decision, and reason. No accounts, configuration changes, or paid software are needed.
+
+</Accordion>
